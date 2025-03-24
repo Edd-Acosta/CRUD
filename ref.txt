@@ -1,0 +1,2 @@
+Crear un usuario en xamp para usarlo en awardspace 
+CREATE USER '4583275_hospital'@'%fdb1030.awardspace.net' IDENTIFIED VIA mysql_native_password USING '***';GRANT ALL PRIVILEGES ON *.* TO '4583275_hospital'@'%fdb1030.awardspace.net' REQUIRE NONE WITH GRANT OPTION MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;
